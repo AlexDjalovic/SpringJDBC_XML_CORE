@@ -42,7 +42,7 @@ public class Test {
 		}*/
 		//PROMENA EMAILA ZA ZAPOSLENE
 		service.promeniEmail("acikino", 1);
-		
+		System.out.println("*****");
 		con.close();
 	}
 
