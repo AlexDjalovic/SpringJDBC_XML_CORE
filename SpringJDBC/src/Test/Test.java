@@ -15,7 +15,7 @@ public class Test {
 
 		AbstractApplicationContext con=new ClassPathXmlApplicationContext("springJDBC.xml");
 		EmpService service=(EmpService) con.getBean("empServiceImpl");
-		
+		System.out.println("-----------------");
 	/*	
 		//kreiram nekog zaposlenog
 		
