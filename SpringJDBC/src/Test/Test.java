@@ -36,12 +36,12 @@ public class Test {
 		*/
 		
 		//DA PRIKAZEM SVE KOJI POSTOJE U BAZI U FORMI LISTE
-		/*List<Employee>al=service.vratiPodatke();
+		List<Employee>al=service.vratiPodatke();
 		for (Employee e : al) {
 			System.out.println(e);
-		}*/
+		}
 		//PROMENA EMAILA ZA ZAPOSLENE
-		service.promeniEmail("acikino", 1);
+	//	service.promeniEmail("acikino", 1);
 		System.out.println("*****");
 		con.close();
 	}
