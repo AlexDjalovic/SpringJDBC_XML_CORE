@@ -22,11 +22,8 @@ public class EmpDaoImpl implements EmpDao {
 	public void setPoziv(SimpleJdbcCall poziv) {
 		this.poziv = poziv;
 	}
-	//OVO JE PRIMER NOVOG SA JDBCTEMPLATE
-	@Override
-	public void createEmp(Employee emp) {
-		
-	}
+	
+	
 	
 	@Override
 	public Employee getEmplById(int id) {
@@ -51,21 +48,9 @@ public class EmpDaoImpl implements EmpDao {
 		}
 		
 	}
-	@Override
-	public void updateEmail(String newMail, int id) {
-	
 
-	}
-
-	@Override
-	public List<Employee> getAllDetails() {
-		return null;
-	
-	}
-	@Override
-	public void deleteEmp(int id) {
 		
-		}
+	
 
 	}
 	

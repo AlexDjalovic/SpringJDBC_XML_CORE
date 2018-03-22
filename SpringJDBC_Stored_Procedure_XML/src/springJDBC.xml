@@ -28,9 +28,9 @@
 	<bean id="empDaoImpl" class="DAO.EmpDaoImpl">
 		<property name="poziv" ref="poziv" />
 	</bean>
-        
-        <bean id="poziv" class="org.springframework.jdbc.core.simple.SimpleJdbcCall">
-        <constructor-arg name="dataSource" ref="dataSource"/>
-        </bean>
+
+	<bean id="poziv" class="org.springframework.jdbc.core.simple.SimpleJdbcCall">
+		<constructor-arg name="dataSource" ref="dataSource" />
+	</bean>
         
 </beans>
