@@ -20,7 +20,7 @@ public class Test {
 	
 		service.prikaziMapu(1);
 	
-		System.out.println("*****");
+		System.out.println("****");
 		Employee e1=service.dohvatiEmplById(1);
 		System.out.println(e1);
 		con.close();
